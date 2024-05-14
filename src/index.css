@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+    background: #000;
+}
+
+@layer components {
+    .btn {
+        padding: 12px 32px;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+        cursor: pointer;
+    }
+    .btn-light {
+        background-color: rgba(255, 255, 255, .2);
+    }
+    .btn:hover {
+          background-color: rgba(255, 255, 255, .2);
+    }
+    .input {
+        background-color: rgba(255, 255, 255, .1);
+        margin-bottom: 1rem;
+        padding: 10px 18px;
+        font-size: 1.2rem;
+        color: #f4f4f4;
+    }
+}
+
